@@ -1,0 +1,17 @@
+{
+  "name": "aws_lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register ./index.spec.js"
+  },
+  "devDependencies": {
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "pg": "^6.2.3"
+  }
+}
