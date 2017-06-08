@@ -4,12 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "mocha --compilers js:babel-register ./index.spec.js"
+    "test": "mocha --timeout 10000 --compilers js:babel-register ./index.spec.js"
   },
   "devDependencies": {
     "babel-register": "^6.24.1",
     "chai": "^4.0.2",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "proxyquire": "^1.8.0"
   },
   "dependencies": {
     "pg": "^6.2.3"
